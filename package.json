@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tdd": "mocha --ui tdd test/tdd.js",
+    "bdd": "mocha test/bdd.js"
   },
   "repository": {
     "type": "git",
